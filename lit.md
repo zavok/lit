@@ -96,7 +96,7 @@ URLs are converted into footnotes.
 		sub(rg, S, $0)
 	}
 
-First tab is stipped away, and the rest is converted to spaces (yuck!)
+First tab is stripped away, and the rest is converted to spaces (yuck!)
 
 	{
 		sub("^\t", "", $0)
