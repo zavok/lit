@@ -19,7 +19,7 @@ of executable lines.  This is achived by testing first argument `$1`
 against `-d` string, printing all tabulated lines and quitting.
 
 	[[ "$1" = "-d" ]] && {
-		sed -n '0,/^# Actual Code/d;s/^\t//p' "$file"
+		sed -n '0,/^# Utils/d;s/^\t//p' "$file"
 		exit
 	}
 
