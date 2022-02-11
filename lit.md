@@ -48,7 +48,7 @@ it might be doable with just `awk`.
 		iscodeblock = 0
 	}
 
-Inline code needs `\verb` command.
+Inline code needs `verb` command.
 
 	!/^\t/{
 		x = 1
