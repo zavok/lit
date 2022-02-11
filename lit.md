@@ -38,7 +38,7 @@ Markdown is not cool, though, therefore this file shall be converted to LaTeX.
 ## Conversion
 
 Parsing markdown for real is surprisingly non-trivial,
-but if we focus only on small subset of it that we use,
+but if we focus only on small subset of what we use,
 it might be doable with just `awk`.
 
 	awk '
@@ -49,6 +49,7 @@ it might be doable with just `awk`.
 	}
 
 Inline code needs `\verb` command.
+
 	!/^\t/{
 		x = 1
 		while ( x != 0 ) {
