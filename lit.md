@@ -121,4 +121,4 @@ And if it is, then things are simple.
 
 	pdflatex $file.latex
 
-Resulting pdf should be available as `./lit.pdf` if all went well.
+Resulting pdf should be available as `./lit.md.pdf` if all went well.
